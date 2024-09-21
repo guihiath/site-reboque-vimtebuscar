@@ -1,0 +1,45 @@
+.titulo__contatos {
+  color: white;
+  font-family: var(--fonte-principal);
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.container__contato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container__contato__item {
+  display: flex;
+  gap: 25px;
+  padding: 2em 2em;
+}
+
+.imagem-contato {
+  width: 30px;
+  height: 30px;
+}
+
+.container-botao__contato {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2em;
+}
+
+.botao-contato {
+  font-family: var(--fonte-principal);
+  font-weight: 800;
+  background-color: transparent;
+  border: solid 2px white;
+  border-radius: 5px;
+  padding: 0.7em;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}

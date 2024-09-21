@@ -1,0 +1,9 @@
+:root {
+  --fonte-principal: "Poppins", sans-serif;
+  --preto: black;
+  --vermelho: #ff0000;
+}
+
+body {
+  background-color: var(--preto);
+}

@@ -1,0 +1,12 @@
+.container-footer {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 0.5em 0.5em;
+}
+
+.text-footer {
+  font-family: var(--fonte-principal);
+  color: #5f5e5e;
+  font-size: 10px;
+}

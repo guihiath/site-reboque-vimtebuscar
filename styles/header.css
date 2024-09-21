@@ -1,0 +1,60 @@
+.cabeçalho__menu_hamburguer {
+  width: 24px;
+  height: 24px;
+  background-image: url(/assets/menu\ hamburguer.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  align-items: center;
+}
+
+.logo {
+  width: 72px;
+  height: 72px;
+}
+
+.cabeçalho {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.icone_redes {
+  width: 24px;
+  height: 24px;
+  padding: 1em;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.lista-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+
+.container__botao:checked ~ .lista-menu {
+  display: block;
+}
+
+.lista-menu__item {
+  padding: 1em;
+  background-color: rgba(235, 236, 238, 1);
+}
+
+.lista-menu__link {
+  font-family: var(--fonte-principal);
+  text-decoration: none;
+  color: var(--preto);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.container__botao {
+  display: none;
+}

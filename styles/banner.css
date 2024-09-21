@@ -1,0 +1,44 @@
+.banner {
+  background-image: url(/assets/Banner.png);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  display: flex;
+  padding-top: 4em;
+}
+
+.titulo__banner {
+  justify-content: center;
+  text-align: center;
+}
+
+.titulo__principal__banner {
+  font-family: var(--fonte-principal);
+  font-weight: 800;
+  font-size: 30px;
+  color: white;
+}
+
+strong {
+  color: var(--vermelho);
+}
+
+.paragrafo__banner {
+  font-family: var(--fonte-principal);
+  font-weight: 500;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 2.5em;
+}
+
+.botao__banner {
+  font-family: var(--fonte-principal);
+  font-weight: 800;
+  background-color: transparent;
+  border: solid 2px white;
+  border-radius: 5px;
+  padding: 0.7em;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
